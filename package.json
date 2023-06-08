@@ -4,7 +4,8 @@
   },
   "type": "module",
   "scripts": {
-    "creators-pool": "npx tsc && node dist/creators_pool.js"
+    "creators-pool": "npx tsc && node dist/creators_pool.js",
+    "is-user-locked-in-pool": "npx tsc && node dist/is_user_locked_in_pool.js"
   },
   "dependencies": {
     "@accessprotocol/js": "^1.0.10",
