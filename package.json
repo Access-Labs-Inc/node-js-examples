@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  },
+  "type": "module",
+  "scripts": {
+    "creators-pool": "npx tsc && node dist/creators_pool.js"
+  },
+  "dependencies": {
+    "@accessprotocol/js": "^1.0.10",
+    "@solana/web3.js": "^1.77.3"
+  }
+}
